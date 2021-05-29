@@ -24,6 +24,7 @@ const ProjectsHero: FC = () => {
                   window.open(
                     'https://github.com/thenewboston-developers/Projects/issues/new?assignees=&labels=Project&template=project-proposal.md&title=NAME_OF_YOUR_PROJECT',
                     '_blank',
+                    'noopener noreferrer',
                   )
                 }
                 variant="contained"
